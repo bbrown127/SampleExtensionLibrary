@@ -23,7 +23,7 @@ jobs:
         run: cd $GITHUB_WORKSPACE
 
       - name: Restore Packages
-        run: nuget restore SHCodeExtensionsStandard.sln
+        run: nuget restore .\SHCodeExtensionsStandard\SHCodeExtensionsStandard.sln
 
       - name: Build Solution
         run: |
